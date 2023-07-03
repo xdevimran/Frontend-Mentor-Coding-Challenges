@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-ewl6od_dmd)
-- [Live Site URL](https://frontend-mentor-coding-challenges.netlify.app/interactive-rating-component/)
+- [Solution URL](https://www.frontendmentor.io/solutions/article-preview-component-XwD2bY_EdZ)
+- [Live Site URL](https://frontend-mentor-coding-challenges.netlify.app/article-preview-component/)
 
 ## My Process
 
