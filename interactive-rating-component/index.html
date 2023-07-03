@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="container">
+      <div class="main-card">
+        <i class="fa-solid fa-star icon"></i>
+        <h2 class="main-heading">How did we do?</h2>
+        <p class="main-peragraph">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="ret-box">
+          <div class="ret-num">
+            <ul class="rate-list">
+              <li class="ret-sercel">1</li>
+              <li class="ret-sercel">2</li>
+              <li class="ret-sercel">3</li>
+              <li class="ret-sercel">4</li>
+              <li class="ret-sercel">5</li>
+            </ul>
+          </div>
+          <button class="ret-btn">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rating state end -->
+    <div class="container point-box-contain hide">
+      <div class="point-box">
+        <img class="thank-img" src="images/illustration-thank-you.svg" alt="" />
+        <h4 class="point-score">You selected <span class="clik-to-ret">2</span> out of 5</h4>
+        <h2 class="main-heading">Thank you!</h2>
+        <p class="main-peragraph">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+    <div class="attribution" container>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.frontendmentor.io/profile/xdevimran">Imran</a>.
+    </div>
+    <!-- Thank you state start -->
+
+    <!-- Add rating here -->
+
+    <!-- Thank you state end -->
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
