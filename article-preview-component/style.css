@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background: hsl(210, 46%, 95%);
+}
+
+/* attribution */
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a {
+  color: hsl(25, 97%, 53%);
+}
+
+.container {
+  margin: 25vh auto 0 auto;
+  width: 700px;
+}
+
+/* main article section style  */
+
+.article-box {
+  display: flex;
+  background: #fff;
+  border-radius: 15px;
+}
+
+/* right text box  */
+.text-box {
+  padding: 20px 25px;
+  padding: 20px 30px 20px 25px;
+}
+
+.article-heading {
+  color: hsl(217, 19%, 35%);
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.article-paragraph {
+  font-size: 12px;
+  color: hsl(212, 23%, 69%);
+  margin-bottom: 15px;
+}
+
+/* left img box  */
+.left-img {
+  width: 100%;
+  border-radius: 15px 0px 0px 15px;
+  background-image: url(images/drawers.jpg);
+  border-image-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* author box  */
+.author-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.author-name {
+  font-size: 12px;
+}
+
+.post-date {
+  color: hsl(212, 23%, 69%);
+  font-size: 9px;
+}
+.author-box:last-child {
+  align-items: end;
+}
+.author-img {
+  width: 30px;
+  border-radius: 100%;
+}
+
+/* share icon  */
+.share-icon {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 100%;
+  color: hsla(217, 19%, 35%, 0.664);
+  background-color: hsla(212, 23%, 69%, 0.247);
+  cursor: pointer;
+}
+
+/* share icon style  */
+.share-button {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(210, 46%, 95%);
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 10px;
+  position: relative;
+  bottom: 140px;
+  left: 535px;
+}
+
+.share-button::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 30px;
+  right: 75px;
+  rotate: 45deg;
+  background-color: hsl(217, 19%, 35%);
+}
+
+.share-button i {
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+.share-button span {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: normal;
+  color: hsla(210, 100%, 98%, 0.363);
+  font-size: 14px;
+}
+
+/* hide the share btn  */
+.hide {
+  display: none;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #555;
+}
