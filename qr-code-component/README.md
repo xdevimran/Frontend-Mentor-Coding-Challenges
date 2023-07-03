@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-Interactive rating component [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+QR code component [QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/article-preview-component-GQJg6kkPSD)
-- [Live Site URL](https://challenges-frontendmentor.netlify.app/article-preview-component/)
+- [Solution URL](https://github.com/xdevimran/Frontend-Mentor-Coding-Challenges/tree/main/qr-code-component)
+- [Live Site URL](https://frontend-mentor-coding-challenges.netlify.app/qr-code-component/)
 
 ## My Process
 
@@ -38,7 +38,7 @@ Users should be able to:
 
 - HTML
 - CSS
-- Javascript
+<!-- - Javascript -->
 
 ### What I learned
 
@@ -46,7 +46,8 @@ This project was quite challenging for me as I had the opportunity to learn some
 
 ### Continued development
 
-I don't make this really responsive for the mobile first will update soon and will add mobile first design
+This is not the final version of the project. i'm learning now along the way i'll update the design and functionality
+thanks.
 
 ## Author
 
