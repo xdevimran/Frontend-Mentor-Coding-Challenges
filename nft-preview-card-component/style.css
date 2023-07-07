@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: hsl(217, 54%, 11%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 3rem;
+  color: hsla(178, 100%, 50%, 0.671);
+  font-size: 1rem;
+}
+.attribution a {
+  color: hsl(0, 0%, 100%);
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  max-width: 30rem;
+  margin: 20rem auto 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* card style  */
+
+.card-box {
+  width: 30rem;
+  background: hsl(216, 50%, 16%);
+  color: hsl(0, 0%, 100%);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-box h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card-box p {
+  font-size: 1.5rem;
+  color: hsla(215, 52%, 70%, 0.781);
+}
+/* icon section  */
+.icon-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* atuhor section */
+.author-box {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+.author-box p {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+.author-img {
+  width: 3rem;
+  height: 3rem;
+  border: 0.2rem solid rgb(214, 209, 209);
+  border-radius: 5rem;
+  margin-top: 1rem;
+}
+
+.author-box p{
+  color: aliceblue;
+}
+.author-box span {
+  font-size: 1.5rem;
+}
