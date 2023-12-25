@@ -7,7 +7,7 @@
 
 ### Links
 
-- [Live Site URL](https://frontend-mentor-coding-challenges.netlify.app/article-preview-component/)
+- [Live Site URL](https://frontend-mentor-coding-challenges.netlify.app/01%20blog-preview-card-main/)
 
 ## Author
 
