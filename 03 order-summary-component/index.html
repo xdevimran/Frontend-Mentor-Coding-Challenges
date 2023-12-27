@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body
+    class="bg-[color:hsl(225,100%,94%)] bg-[url(/images/pattern-background-desktop.svg)] bg-cover bg-center bg-no-repeat bg-blend-multiply"
+  >
+    <div class="flex items-center justify-center h-screen">
+      <div class="card w-96 bg-[color:hsl(225,100%,98%)] rounded-xl">
+        <div>
+          <!-- image  -->
+          <div>
+            <img
+              class="rounded-t-xl"
+              src="./images/illustration-hero.svg"
+              alt=""
+            />
+          </div>
+          <!-- info -->
+          <div class="text-center py-5 px-10">
+            <h1
+              class="text-2xl font-extrabold text-[color:hsl(223,47%,23%)] py-3"
+            >
+              Order Summary
+            </h1>
+            <p class="text-base text-gray-500 py-3">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+            <!-- price  -->
+            <div
+              class="flex items-center justify-between rounded-xl px-3 bg-[color:hsl(224,23%,55%)] bg-opacity-10 shadow-md"
+            >
+              <div class="flex items-center gap-5 p-3">
+                <div>
+                  <img class="w-10" src="./images/icon-music.svg" alt="" />
+                </div>
+                <div>
+                  <h3 class="font-bold">Annual Plan</h3>
+                  <p>$59.99/year</p>
+                </div>
+              </div>
+              <div>
+                <h4 class="text-base underline text-[color:hsl(245,75%,52%)]">
+                  Change
+                </h4>
+              </div>
+            </div>
+            <!-- buttons -->
+            <div class="flex flex-col items-center justify-center py-5">
+              <button
+                class="bg-[color:hsl(245,75%,52%)] text-white py-3 px-4 rounded-md w-full shadow-xl text-base font-bold hover:bg-[hsla(245,75%,52%,.8)] hover:transition-all duration-300"
+              >
+                Proceed to Payment
+              </button>
+              <button
+                class="mt-4 font-bold text-gray-500 hover:text-black hover:transition-all duration-300"
+              >
+                Cancel Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
