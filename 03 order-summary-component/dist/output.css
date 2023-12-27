@@ -725,6 +725,10 @@ video {
   background-image: url(/images/pattern-background-desktop.svg);
 }
 
+.bg-\[url\(\.\/images\/pattern-background-desktop\.svg\)\] {
+  background-image: url(./images/pattern-background-desktop.svg);
+}
+
 .bg-cover {
   background-size: cover;
 }
