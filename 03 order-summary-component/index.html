@@ -15,7 +15,7 @@
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body
-    class="bg-[color:hsl(225,100%,94%)] bg-[url(/images/pattern-background-desktop.svg)] bg-cover bg-center bg-no-repeat bg-blend-multiply"
+    class="bg-[color:hsl(225,100%,94%)] bg-[url(/images/pattern-background-desktop.svg)] bg-top bg-contain bg-no-repeat"
   >
     <div class="flex items-center justify-center h-screen">
       <div class="card w-96 bg-[color:hsl(225,100%,98%)] rounded-xl">
@@ -48,8 +48,10 @@
                   <img class="w-10" src="./images/icon-music.svg" alt="" />
                 </div>
                 <div>
-                  <h3 class="font-bold">Annual Plan</h3>
-                  <p>$59.99/year</p>
+                  <h3 class="font-bold text-[color:hsl(224,23%,55%)]">
+                    Annual Plan
+                  </h3>
+                  <p class="text-[color:hsl(224,23%,55%)]">$59.99/year</p>
                 </div>
               </div>
               <div>
@@ -75,11 +77,16 @@
         </div>
       </div>
     </div>
-    <div class="attribution">
+    <div class="text-center py-20 mx-auto">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by
+      <a
+        class="font-bold"
+        href="https://www.frontendmentor.io/profile/xdevimran"
+        >Imran.</a
+      >
     </div>
   </body>
 </html>

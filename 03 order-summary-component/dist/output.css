@@ -574,6 +574,11 @@ video {
   }
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -724,8 +729,16 @@ video {
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-center {
   background-position: center;
+}
+
+.bg-top {
+  background-position: top;
 }
 
 .bg-no-repeat {
@@ -773,6 +786,11 @@ video {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .text-center {
@@ -834,6 +852,18 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[font\] {
+  color: font;
+}
+
+.text-\[colo\] {
+  color: colo;
 }
 
 .underline {
