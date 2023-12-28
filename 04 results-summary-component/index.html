@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="main flex items-center justify-center h-screen px-20 py-10">
+      <div
+        class="card grid md:grid-cols-2 shadow-lg rounded-xl sshadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]"
+      >
+        <div
+          class="bg-gradient-to-r from-[#354cce] to-[color:hsl(241,81%,54%)] ... p-10 rounded-2xl shadow-xl w-80 flex flex-col items-center justify-center"
+        >
+          <h1 class="text-[color:hsl(241,100%,89%)] text-xl py-3">
+            Your Result
+          </h1>
+          <div
+            class="bg-gradient-to-b from-[color:hsla(256,72%,46%,1)] to-[color:hsla(241,72%,46%,0)] rounded-full px-14 py-12 text-center"
+          >
+            <h1 class="text-6xl font-bold text-[hsl(0,0%,100%)]">76</h1>
+            <p class="text-[hsl(223,3%,52%)]">of 100</p>
+          </div>
+          <div class="text-center">
+            <h1 class="text-3xl py-3 text-[hsl(221,100%,96%)] font-bold">
+              Great
+            </h1>
+            <p class="text-[hsl(241,100%,89%)]">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="p-10 rounded-r-2xl w-80">
+          <h2 class="text-[25px] font-bold py-5">Summary</h2>
+          <!-- icon card -->
+          <div class="flex flex-col gap-5 justify-center">
+            <div
+              class="flex items-center justify-between bg-pink-100 p-3 rounded-md"
+            >
+              <div class="flex gap-3">
+                <img src="./assets/images/icon-reaction.svg" alt="" />
+                <h2 class="text-[hsl(0,100%,67%)] font-medium">Reaction</h2>
+              </div>
+              <div class="text-lg font-bold">
+                80 <span class="text-gray-500">/ 400</span>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between bg-[hsl(56,83%,89%)] p-3 rounded-md"
+            >
+              <div class="flex gap-3">
+                <img src="./assets/images/icon-memory.svg" alt="" />
+                <h2 class="text-[hsl(39,100%,56%)] font-medium">Memory</h2>
+              </div>
+              <div class="text-lg font-bold">
+                92 <span class="text-gray-500">/ 100</span>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between bg-[hsl(166,100%,95%)] p-3 rounded-md"
+            >
+              <div class="flex gap-3">
+                <img src="./assets/images/icon-verbal.svg" alt="" />
+                <h2 class="text-[hsl(166,100%,37%)] font-medium">Verbal</h2>
+              </div>
+              <div class="text-lg font-bold">
+                61 <span class="text-gray-500">/ 100</span>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between bg-[hsl(234,85%,95%)] p-3 rounded-md"
+            >
+              <div class="flex gap-3">
+                <img src="./assets/images/icon-visual.svg" alt="" />
+                <h2 class="text-[hsl(234,85%,45%)] font-medium">Visual</h2>
+              </div>
+              <div class="text-lg font-bold">
+                80 <span class="text-gray-500">/ 400</span>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center justify-center py-5">
+            <button
+              class="bg-gray-700 py-4 px-5 w-full rounded-full text-[hsl(221,100%,96%)] hover:bg-gradient-to-r from-blue-500 to-blue-500 ... hover:transition-all duration-300"
+            >
+              Click here
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center py-5 mx-auto hidden md:block">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        class="font-bold"
+        href="https://www.frontendmentor.io/profile/xdevimran"
+        >Imran.</a
+      >
+    </div>
+  </body>
+</html>
