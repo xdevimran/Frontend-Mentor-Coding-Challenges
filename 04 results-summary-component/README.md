@@ -1,4 +1,4 @@
-# Frontend Mentor - Order-summary-component
+# Frontend Mentor - Results-summary-component
 
 ### Screenshot
 
@@ -6,7 +6,7 @@
 
 ### Links
 
-- [Live Site URL](https://frontend-mentor-coding-challenges.netlify.app/03%20order-summary-component/)
+- [Live Site URL](https://frontend-mentor-coding-challenges.netlify.app/04%20results-summary-component/)
 
 ## Author
 
