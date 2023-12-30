@@ -856,6 +856,11 @@ video {
   color: hsla(0,0%,100%,0.6);
 }
 
+.text-\[hsl\(277\2c 64\%\2c 61\%\)\] {
+  --tw-text-opacity: 1;
+  color: hsl(277 64% 61% / var(--tw-text-opacity));
+}
+
 .bg-blend-multiply {
   background-blend-mode: multiply;
 }
@@ -878,6 +883,10 @@ body{
   .md\:mx-36 {
     margin-left: 9rem;
     margin-right: 9rem;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:flex {
